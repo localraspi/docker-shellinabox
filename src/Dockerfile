@@ -1,4 +1,5 @@
 FROM krishnasrinivas/wetty:latest
+LABEL maintainer="federicojasson@gmail.com"
 
 EXPOSE 80
 VOLUME /root/.ssh
